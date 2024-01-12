@@ -44,6 +44,34 @@ public class TwoDimArrayTest {
             }
             System.out.println();
         }
+
+        // 트리 모양 만들기
+
+        int height = 5; //트리의 높이
+
+        for (int i = 0; i < height; i++) {
+            //공백 출력
+            for (int j  = 0; j <height - i -1; j++) {
+                System.out.print(" ");
+            }
+            //'*' 출력
+            for (int k = 0; k <2*i+1; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        /*
+        * 설명:
+
+        height는 트리의 높이를 나타냄.
+        바깥쪽 루프에서 i는 트리의 각 높이를 나타냄.
+        안쪽 첫 번째 반복문(j)은 왼쪽 공백의 개수를 계산하여 출력. height -i -1은 5 - 0 -1,5 - 1 - 1,5-2-1,5-3-1,5-4-1
+        안쪽 두 번째 반복문(k)은 '*'의 개수를 계산하여 출력. 2 * i + 1은 홀수 개수의 '*'를 얻기 위한 계산.
+        인덱스는 0부터 시작이므로 <0층 1개,1층 3개,2층 5개,3층 7개,4층 9개>
+        j가 k보다 먼저 정의되어 있기 때문에 공백이 먼저 출력 됨
+
+        *
+        * */
     }
 }
 
