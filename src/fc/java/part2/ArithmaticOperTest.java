@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class ArithmaticOperTest {
     public static void main(String[] args) {
 

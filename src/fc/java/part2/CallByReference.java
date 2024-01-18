@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class CallByReference {
     public static void main(String[] args) {
         float a = 56.7f;

@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class WhileLoopTest {
     public static void main(String[] args) {
         // 0~5 까지의 수를 출력하세요.

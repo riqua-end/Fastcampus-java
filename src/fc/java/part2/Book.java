@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class Book {
     public String title;
     public int price;

@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 class CodingTest {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class PrePostOperTest {
     public static void main(String[] args) {
 

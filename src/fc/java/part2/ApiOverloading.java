@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class ApiOverloading {
     public static void main(String[] args) {
         // println() 메서드가 오버로딩 되어있다.

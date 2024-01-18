@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 import java.sql.SQLOutput;
 
 public class DoubleLoopTest {

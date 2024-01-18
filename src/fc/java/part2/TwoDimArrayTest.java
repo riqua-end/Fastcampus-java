@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 public class TwoDimArrayTest {
     public static void main(String[] args) {
         //Q.2행 4열의 정수형 배열을 생성하세요.

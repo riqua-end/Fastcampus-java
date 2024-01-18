@@ -1,3 +1,5 @@
+package fc.java.part2;
+
 import java.awt.print.Book;
 import java.util.Arrays;
 
