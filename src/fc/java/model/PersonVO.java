@@ -20,6 +20,11 @@ public class PersonVO {
         this.phone=phone;
     }
 
+    // toString() 메서드를 이용해서 모든 값을 문자열로 만들기
+    public String toString(){
+        return name+"\t"+age+"\t"+phone;
+    }
+
     // Setter , Getter 메서드 만들기
     public String getName() {
         return name;
