@@ -12,7 +12,21 @@ public class RempVO extends Employee {
 
     // 상속을 사용하면 하위 클래스가 상위 클래스를 재활용 가능하다.
     // 하위 클래스가 상위 클래스를 접근하여 사용 가능
-    public RempVO(){
+    public RempVO(){ // 자식이 부모의 상태 정보를 마음대로 접근 하므로 정보 은닉에 위배됨.
         super();
+    }
+
+    public RempVO(String name,int age, String phone, String empDate, String dept, boolean marriage){
+        // 초기화 ( 자식이 부모의 기억 공간에 초기화를 하는 경우 )
+
+//        this.name=name;
+//        this.age=age;
+//        this.dept=dept;
+//        this.empDate=empDate;
+//        this.phone=phone;
+//        this.marriage=marriage;
+
+        // 부모의 생성자 호출 , 부모의 생성자에서 초기화 하는 것이 바람직 하다.
+        super(name,age,phone,empDate,dept,marriage);
     }
 }
