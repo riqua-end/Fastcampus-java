@@ -7,8 +7,17 @@ public class ObjectArray {
     private int size = 0;
     private Object[] elements;
     // 배열 생성 동작
+//    public ObjectArray(){
+//        elements = new Object[DEFAULT_CAPACITY]; // 5개 크기 배열
+//    }
+
     public ObjectArray(){
-        elements = new Object[DEFAULT_CAPACITY]; // 5개 크기 배열
+        this(5); // this() : 생성자안에서 다른 생성자를 호출할때 사용
+    }
+
+    // 오버로딩을 해서 원하는 크기의 배열을 생성한다.
+    public ObjectArray(int capacity){
+        elements = new Object[capacity];
     }
     //배열 저장 동작
     public void add(Object element){ //다형성 인수
