@@ -1,4 +1,4 @@
-package fc.java.course2.part1;
+package fc.java.course2.part2;
 
 public class WrapperTest {
     public static void main(String[] args) {
