@@ -1,4 +1,4 @@
-package fc.java.course2.part1;
+package fc.java.course2.part2;
 
 import fc.java.model2.Connection;
 import fc.java.model2.OracleDriver;
