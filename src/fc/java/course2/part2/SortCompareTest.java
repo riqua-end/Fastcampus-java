@@ -7,6 +7,7 @@ import java.util.List;
 public class SortCompareTest {
     public static void main(String[] args) {
         // 특정 객체의 인스턴스 메서드 참조
+        // Arrays.asList()는 배열 형식을 List 형식으로 변환
         List<String> names = Arrays.asList("홍길동","김길동","이길동");
         Collections.sort(names,String::compareTo); // String 클래스의 compareTo메서드를 참조
 
