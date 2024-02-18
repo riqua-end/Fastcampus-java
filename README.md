@@ -26,3 +26,11 @@ MVC 기반으로 애완동물 진료관리 애플리케이션 개발
 코로나 바이러스 감염 현황 크롤링 및 PDF 파일 저장
 ```
 
+### git bash , subtree 명령어로 상위 저장소에 하위 저장소 합치기 [ 기존 커밋 이력 유지 ]
+```
+git remote add [저장소] [URL]
+git subtree add -prefix=[폴더명] [저장소명] [브랜치]
+git add .
+git push origin main
+```
+
